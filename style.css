@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+html,body{
+   height: 100%;
+   width:100%;
+   overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346, 17%, 70%);
+    display: flex;
+   
+}
+#part1{
+    height: 100%;
+    width: 26%;
+   
+}
+#part2{
+    height: 100%;
+    width: 70%;
+    background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
+    background-size: cover;
+    background-position: center;
+}   
+#part3{
+    height: 100%;
+    width: 7%;
+   
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(344, 17%, 52%, 0.448);
+}
+#textdiv{
+
+    position: absolute;
+    height: 300px;
+    width:400px;
+    left:5%;
+    top: 30%;
+    transform: translate(0,-50%);}
+#textdiv>h1{
+    font-size:95px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Gilroy', sans-serif;
+    line-height: 75px;
+    letter-spacing: 8px;
+    color: #fff;
+}
+#smallimg{
+    height: 400px;
+    width:300px;
+    background-image: url(https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1089&q=80);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    top:50%;
+    right:5%;
+    transform: translate(0,-50%);
+}
+#overlay3{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(343, 25%, 75%, 0.496);
+    border-radius: 10px;
+}
+#vertical{
+    position: absolute;
+    top:-8%;
+    right:-54%;
+    transform-origin: 0% 0%;
+    transform: rotate(90deg);
+   
+
+}
+#vertical h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 17px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    
+
+}
